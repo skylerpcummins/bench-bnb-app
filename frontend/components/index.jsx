@@ -16,7 +16,7 @@ var Index = React.createClass({
   },
 
   componentWillUnmount: function() {
-    this.pokemonToken.remove();
+    this.benchToken.remove();
   },
 
   componentDidMount: function() {
